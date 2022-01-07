@@ -42,11 +42,16 @@ body {
     align-items: center;
 }
 
-.clock object,
+.creator p {
+    margin-left: 1em;
+}
+
+/* .clock object,
 .diamond object {
     margin: 0;
     padding: 0;
-}
+    margin-right: 1em;
+} */
 
 
 
@@ -83,11 +88,10 @@ body {
     border: white solid 1px;
     width: 2em;
     height: 2em;
-    margin: 0;
 }
 
 .tiny-img {
-    margin-right: 4em;
+    margin-right: .4em;
 }
 
 /* TYPE */
@@ -125,7 +129,8 @@ h2:focus {
     display: flex;
     align-items: center;
     border-top: hsl(215, 51%, 70%) solid 1px;
-    padding: 1em 0;
+    padding-top: 1em;
+    padding-bottom: 0;
 }
 
 .creator span {
